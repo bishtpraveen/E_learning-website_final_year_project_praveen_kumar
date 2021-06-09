@@ -16,6 +16,7 @@ use Redirect;
 use Illuminate\Support\Facades\Validator;
 use Session;
 use Cookie;
+use Illuminate\Contracts\Session\Session as SessionSession;
 use Illuminate\Support\Facades\Cookie as FacadesCookie;
 use Mail;
 use Illuminate\Support\Facades\DB;
@@ -581,6 +582,8 @@ class HomeController extends Controller
         return view('for_buisness');
     }
 
+
+    
     public function full_width_listing()
     {
         return view('full_width_listing');
@@ -612,13 +615,41 @@ class HomeController extends Controller
 
     public function mycourses(Request $request)
     {
-
-
-
+        // $rgData = RegisteredCourses::all();
+        // return view('mycourses')->with('rdata', $rgData);
 
 
         $rgData = RegisteredCourses::all();
-        return view('mycourses')->with('rdata', $rgData);
+        $Data = AddDetails::distinct('email')->where('email','email');
+        return view('mycourses')->with('rdata', $rgData)->with('data', $Data);
+
+
+        // $rgData = RegisteredCourses::all();
+        // $loginDetails = AddDetails::where('email',Session::get('email'))->first();
+        // return view('mycourses')->with('rdata', $rgData)->with('loginDetails',$loginDetails);
+        
+
+
+
+
+
+
+        // $rgData = RegisteredCourses::all();
+        // $loginDetails = AddDetails::where('id', $request->id)->first();
+        // return view('mycourses')->with('rdata', $rgData);
+// $get_shop_info_query_all = shop_info::distinct('images')->pluck('images','specillaty_service');
+//         $get_user_details = register::where('email',Session::get('register_email'))->orWhere('email',Cookie::get('register_email'))->first();
+        
+//         return view('view_profile')->with('user_data',$get_user_details)->with('shop_navbar_info',$get_shop_info_query_all);
+
+       
+        // $Data = RegisteredCourses::where('username',$request->username);
+        // $rgData = array('first_detail'=>'courses','second_detail'=>'amount');
+        // return view('mycourses')->with('rdata', $rgData,'data',$Data);
+
+
+
+
 
 
        

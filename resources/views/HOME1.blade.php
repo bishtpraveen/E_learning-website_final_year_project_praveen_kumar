@@ -461,7 +461,7 @@
 
 <!-- for pagination start  -->
 
-            <form action="{{ route ('web.search') }}" method="GET">
+            <!-- <form action="{{ route ('web.search') }}" method="GET">
 
 
 
@@ -484,18 +484,18 @@
 
 
 
-            </form>
+            </form> -->
 
-            @if(isset( $searchcourses))
+            <!-- @if(isset( $searchcourses)) -->
 
-                <div class="row">
+                <!-- <div class="row"> -->
 
-
+<!-- 
                     @if(count($searchcourses) > 0)
-                    @foreach($searchcourses as $d)
+                    @foreach($searchcourses as $d) -->
 
                     <!-- div block -->
-                    <div class="col-md-3 p-3">
+                    <!-- <div class="col-md-3 p-3">
                         <a style="text-decoration: none;" href="{{url('buy_on_click')}}">
                             <div id="courserat5" style="border: 1px solid grey;border-radius: 15px;">
                                 <img style="height: 100%; width: 100%;border-radius: 15px 15px 0px 0px; " src="{{ asset('thumnail_img/' . $d->thumnail_img) }}" alt="image missing because(offline) img src is private pc">
@@ -534,24 +534,24 @@
                         </a>
 
 
-                    </div>
-                    <!-- div block -->
+                    </div> -->
+                    <!-- div block
                     @endforeach
-                    @else
-                    <div>
+                    @else -->
+                    <!-- <div>
 
                         OOps ! No Result found !
 
-                    </div>
-                    @endif
-                    </div>
+                    </div> -->
+                    <!-- @endif -->
+                    <!-- </div>
 
-                    <div class="pagination-block">
+                    <div class="pagination-block"> -->
 
 
-                        {{ $searchcourses->links('layouts.paginationlinks') }}
-                    </div>
-                    @endif
+                        <!-- {{ $searchcourses->links('layouts.paginationlinks') }} -->
+                    <!-- </div> -->
+                    <!-- @endif -->
 
 
 
@@ -561,12 +561,12 @@
 
 
 
+<form action="/search_home1" >
 
 
-<!-- 
 
-              <div class="input-group mb-5">
-                <input type="text" name="search" id="search" placeholder="what are the courses you would like to search?" style="border-radius: 15px 0px 0px 15px;" class="form-control  ">
+<div class="input-group mb-5">
+                <input type="text" name="query" id="search" placeholder="what are the courses you would like to search?" style="border-radius: 15px 0px 0px 15px;" class="form-control search-box ">
                 <div class="input-group-append">
                   <span style="border-radius: 0px 15px 15px 0px; color: white;" class="input-group-text bg-info ">
 
@@ -576,7 +576,14 @@
                 </div>
 
                 
-              </div> -->
+              </div>
+
+
+
+</form>
+
+
+              
 
 
 

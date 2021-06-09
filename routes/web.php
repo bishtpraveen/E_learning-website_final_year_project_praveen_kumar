@@ -41,6 +41,7 @@ Route::get('editprofile', [HomeController::class,'editprofile']);
 
 Route::get('eventcalender', [HomeController::class,'eventcalender']);
 Route::get('for_buisness', [HomeController::class,'for_buisness']);
+
 Route::get('full_width_listing', [HomeController::class,'full_width_listing']);
 Route::get('gallery', [HomeController::class,'gallery']);
 Route::get('home1', [HomeController::class,'home1']);
@@ -62,6 +63,7 @@ Route::get('single_team', [HomeController::class,'single_team']);
 
 
 Route::get('singleevents', [HomeController::class,'singleevents']);
+
 Route::get('topography', [HomeController::class,'topography']);
 Route::get('with_left_sidebar', [HomeController::class,'with_left_sidebar']);
 Route::get('with_right_sidebar', [HomeController::class,'with_right_sidebar']);
@@ -163,4 +165,8 @@ Route::get('educator_show_add_courses',[EducatorAddCourses::class,'educator_show
 // ajax searh
 
 Route::post('contact_form',[HomeController::class,'contact_form']);
+//home search icon results route
+
+Route::get('/search_home1',[SearchController::class,'search_home1']);
+;
 

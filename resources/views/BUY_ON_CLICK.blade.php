@@ -145,7 +145,7 @@
      
  
         {{  $id->title  }}
-         
+    
          
           </h3>
     
@@ -227,7 +227,8 @@
      
       <input type="text" placeholder="{{  $id->price  }}" value="{{  $id->price  }}" name="ramount" class="form-control p-2 my-2" readonly>
      
-      
+      <!-- this is course/product id -->
+      <input type="hidden" placeholder="{{  $id->id  }}" value="{{  $id->id  }}" name="rcourses" class="form-control p-2 my-2" readonly>
 
 
 
@@ -321,7 +322,8 @@
     <div class="row p-5 bg-light my-5" style="border-radius: 15px; box-shadow: 0px 0px 20px grey;">
 
       <h3>Course Overview <i style="color: #1E90FF;" class="fas fa-chalkboard-teacher ml-auto"></i></h3>
-      <p class="text-muted">Want to cover all the important concepts and topics required for the interviews? Looking to get
+      <p class="text-muted">
+      Want to cover all the important concepts and topics required for the interviews? Looking to get
         placement ready before the
         interviews begin? If yes, then we have the perfect tool for you. With our complete interview
         preparation course, you’ll get access to

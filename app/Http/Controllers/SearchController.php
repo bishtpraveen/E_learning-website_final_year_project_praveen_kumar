@@ -137,11 +137,25 @@ class SearchController extends Controller
 
             $searchcourses = DB::table('educator_add_courses_models')->where('title', 'LIKE', '%' . $search_text . '%')->paginate(2);
             $searchcourses->appends($request->all());
-            return view('search', ['searchcourses' => $searchcourses])->with('data',$allData);;
+            return view('search', ['searchcourses' => $searchcourses])->with('data',$allData);
+
         } else {
 
             return view('search');
         }
+    }
+
+
+    public function search_home1(Request $req){     
+    //  $data = EducatorAddCoursesModel::where('title','LIKE','%'.$req->input('query').'%')->get();
+    //  return view('search_home1',['data'=>$data]);
+
+
+
+     $data = EducatorAddCoursesModel::take(8)->orderBy('id', 'desc')->get();
+     return view('search_home1',['data'=>$data]);
+    //  Modal::take(5)->orderBy('id', 'desc')->get();
+     
     }
 
 

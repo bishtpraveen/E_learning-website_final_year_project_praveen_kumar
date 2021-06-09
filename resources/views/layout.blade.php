@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>Layout</title>
     <link rel="stylesheet" href="{{asset('OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css')}}">
   <link rel="stylesheet" href="{{asset('OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css')}}">
@@ -191,6 +191,7 @@
                   <div id="eventsDdmId" class="dropdown-menu ">
                     <a href="{{url('singleevents')}}" class="dropdown-item">Single Events </a>
                     <a href="{{url('eventcalender')}}" class="dropdown-item">Events Calender</a>
+                
 
 
                   </div>

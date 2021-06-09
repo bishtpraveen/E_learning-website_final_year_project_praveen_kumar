@@ -249,7 +249,7 @@
                             <button class="btn btn-light btn-outline-info">Pay Now </button>
                         </p>
                     </div>
-
+ 
 
 
                      <div class="row p-5">
@@ -269,9 +269,10 @@
                                 </thead>
 
                                 <tbody>
-
+                            
+                             
                                     @foreach($rdata as $d)
-
+                              
                                     <tr>
                                         <td>{{$d->id}}</td>
                                         <td>{{$d->username}}</td>
@@ -283,6 +284,10 @@
                                         </td>
                                     </tr>
                                     @endforeach
+                             
+
+
+
 
                                 </tbody>
                                 <tfoot>
