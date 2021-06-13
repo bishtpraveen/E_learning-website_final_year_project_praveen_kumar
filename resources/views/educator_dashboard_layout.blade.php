@@ -96,8 +96,8 @@
               </li>
               <li class="nav-item dropdown">
                             <a href="" data-toggle="dropdown"
-                                class="btn btn-light btn-outline-primary  nav-link dropdown-toggle "> 
-                                <img  style="height: auto; width: 20%; border-radius: 50%; border: 1px solid white; " src="{{asset('educator_profile_image/'.Session::get('pro_img'))}}" alt="">
+                                class="text-light  nav-link dropdown-toggle "> 
+                                <img  style="height: auto; width: 10%; border-radius: 50%; border: 1px solid white; " src="{{asset('educator_profile_image/'.Session::get('pro_img'))}}" alt="">
                                 
                                  {{Session::get('username')}}</i></a>
                             <div class="dropdown-menu">

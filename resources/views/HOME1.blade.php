@@ -262,24 +262,24 @@
             <nav class="navbar navbar-expand-md px-0 ">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a href="" class="nav-link"><i style="color: white;" class="fab fa-facebook-f"></i></a>
+                  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link"><i style="color: white;" class="fab fa-facebook-f"></i></a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link"><i style="color: white;" class="fab fa-twitter"></i></a>
+                  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link"><i style="color: white;" class="fab fa-twitter"></i></a>
                 </li>
                 <li class="nav-item">
                   <a href="" class="nav-link"><i style="color: white;" class="fab fa-instagram"></i></a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
+                  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
                 </li>
               </ul>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a style="color: white;" href="" class="nav-link"><i class="fas fa-envelope-square mr-2"></i>vidya@edu.com</a>
+                  <a style="color: white;" href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link"><i class="fas fa-envelope-square mr-2"></i>vidya@edu.com</a>
                 </li>
                 <li class="nav-item">
-                  <a style="color: white;" href="" class="nav-link"><i style="color: white;" class="fas fa-phone  mr-2"></i>8122345678</a>
+                  <a style="color: white;" href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link"><i style="color: white;" class="fas fa-phone  mr-2"></i>8122345678</a>
                 </li>
 
 
@@ -295,7 +295,7 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a href="" data-toggle="dropdown" class="btn btn-light btn-outline-primary  nav-link dropdown-toggle ">
-                    <img style="height: auto; width: 20%; border-radius: 50%; border: 1px solid white; " src="{{asset('educator_profile_image/'.Session::get('pro_img'))}}" alt="">
+                    <img style="height: auto; width: 7%; border-radius: 50%; border: 1px solid white; " src="{{asset('educator_profile_image/'.Session::get('pro_img'))}}" alt="">
 
                     {{Session::get('username')}}</i></a>
                   <div class="dropdown-menu">
@@ -315,11 +315,13 @@
 
                 @elseif(!Session::has('email'))
                 <li class="nav-item">
-                  <a href="{{url('login')}}" class="nav-link"><button class="btn btn-light btn-outline-primary">Login</button></a>
-                </li>
-                <li class="nav-item">
-                  <a href="{{url('sign_up')}}" class="nav-link"><button class="btn btn-light btn-outline-primary">SignUp</button></a>
-                </li>
+                  <a href="{{url('login')}}" class="nav-link text-light"><i class="fas fa-sign-in-alt mr-1 "></i>Login</a>
+              </li>
+              <li class="nav-item">
+                  <a href="{{url('sign_up')}}" class="nav-link text-light"><i class="fas fa-user-plus mr-1"></i>SignUp</a>
+              </li>
+
+
                 @else
                 <li class="nav-item">
                   <a href="{{url('logout')}}" class="nav-link"><button class="btn btn-light btn-outline-primary"><i class="fas fa-sign-out-alt"></i></button></a>
@@ -357,7 +359,7 @@
           </div>
           <div class="col-md-8 ">
             <nav class="navbar navbar-expand-md px-0">
-              <a href="" style="color: white;" class="navbar-brand">Vidya Infinity</a>
+              <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" style="color: white;" class="navbar-brand">Vidya Infinity</a>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item ">
                   <a href="{{url('home1')}}" style="color: white;" id="homeId" class="nav-link ">Home</a>
@@ -459,7 +461,7 @@
 
 
 
-<!-- for pagination start  -->
+            <!-- for pagination start  -->
 
             <!-- <form action="{{ route ('web.search') }}" method="GET">
 
@@ -488,14 +490,14 @@
 
             <!-- @if(isset( $searchcourses)) -->
 
-                <!-- <div class="row"> -->
+            <!-- <div class="row"> -->
 
-<!-- 
+            <!-- 
                     @if(count($searchcourses) > 0)
                     @foreach($searchcourses as $d) -->
 
-                    <!-- div block -->
-                    <!-- <div class="col-md-3 p-3">
+            <!-- div block -->
+            <!-- <div class="col-md-3 p-3">
                         <a style="text-decoration: none;" href="{{url('buy_on_click')}}">
                             <div id="courserat5" style="border: 1px solid grey;border-radius: 15px;">
                                 <img style="height: 100%; width: 100%;border-radius: 15px 15px 0px 0px; " src="{{ asset('thumnail_img/' . $d->thumnail_img) }}" alt="image missing because(offline) img src is private pc">
@@ -535,37 +537,37 @@
 
 
                     </div> -->
-                    <!-- div block
+            <!-- div block
                     @endforeach
                     @else -->
-                    <!-- <div>
+            <!-- <div>
 
                         OOps ! No Result found !
 
                     </div> -->
-                    <!-- @endif -->
-                    <!-- </div>
+            <!-- @endif -->
+            <!-- </div>
 
                     <div class="pagination-block"> -->
 
 
-                        <!-- {{ $searchcourses->links('layouts.paginationlinks') }} -->
-                    <!-- </div> -->
-                    <!-- @endif -->
+            <!-- {{ $searchcourses->links('layouts.paginationlinks') }} -->
+            <!-- </div> -->
+            <!-- @endif -->
 
 
 
-<!-- pagination ends -->
-
-        
+            <!-- pagination ends -->
 
 
 
-<form action="/search_home1" >
+
+
+            <form action="/search_home1">
 
 
 
-<div class="input-group mb-5">
+              <div class="input-group mb-5">
                 <input type="text" name="query" id="search" placeholder="what are the courses you would like to search?" style="border-radius: 15px 0px 0px 15px;" class="form-control search-box ">
                 <div class="input-group-append">
                   <span style="border-radius: 0px 15px 15px 0px; color: white;" class="input-group-text bg-info ">
@@ -575,23 +577,23 @@
 
                 </div>
 
-                
+
               </div>
 
 
 
-</form>
-
-
-              
+            </form>
 
 
 
 
 
-      
 
-          
+
+
+
+
+
 
 
 
@@ -639,153 +641,69 @@
 
           <div class="col-md-8 " style="border-radius: 100px;">
             <div class="owl-carousel owl-theme">
-              <div class="item">
+              @foreach($data as $d)
 
-                <!--economy start item 1-->
-                <div class="bg-light p-4 text-center" id="economy1" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fas fa-chart-line " style="color: blue; font-size: 400%;"></i></p>
-                  <p>Economy</p>
-
-                </div>
-
-                <!--economy ends item1-->
-
-
-              </div>
-              <div class="item">
-
-
-
-                <!-- start item 2-->
-                <div class="bg-light p-4 text-center" id="languages1" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fas fa-language " style="color: blue; font-size: 400%;"></i></p>
-                  <p>Languages</p>
-
-                </div>
-
-                <!--ends item2-->
+              <div class="col-md-12 p-3">
 
 
 
 
-              </div>
-              <div class="item">
 
 
-                <!-- start item 3-->
-                <div class="bg-light p-4 text-center" id="design1" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fas fa-paint-brush" style="color: blue; font-size: 400%;"></i></p>
-                  <p>Design</p>
+                <a id="a1" style="text-decoration: none;" href="{{url('buy_on_click',$d['id'])}}">
 
-                </div>
-                <!--ends item 3-->
+                  <script>
+                    $('#a1').click(function() {
 
-
-
-              </div>
-              <div class="item">
+                      $('#fullcoursename').css('color', 'red');
+                    });
+                  </script>
 
 
-                <!-- start item 4-->
-                <div class="bg-light p-4 text-center" id="biology1" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fas fa-dna" style="color: blue; font-size: 400%;"></i></p>
-                  <p>Biology</p>
-
-                </div>
-
-                <!--ends item4-->
-
-              </div>
-              <div class="item">
 
 
-                <!-- start item 5-->
-                <div class="bg-light p-4 text-center" id="history1" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fas fa-book-reader " style="color: blue; font-size: 400%;"></i></p>
-                  <p>History</p>
 
-                </div>
+                  <div id="courserat5" style="border: 1px solid grey;border-radius: 15px;">
+                    <img style="height: 100%; width: 100%;border-radius: 15px 15px 0px 0px; " src="{{ asset('thumnail_img/' . $d->thumnail_img) }}" alt="image missing because(offline) img src is private pc">
 
-                <!--ends item5-->
+                    <div class="p-3 bg-light">
+                      <p class="text-muted">{{$d->title}}</p>
+                      <small> {{$d->fullcoursename}} </small>
+
+
+                      <div style="position: relative;">
+                        <div>
+                          <p style="color: yellow;"><i class="far fa-star"> </i>
+                            <i class="far fa-star"> </i>
+                            <i class="far fa-star"> </i>
+                            <i class="far fa-star"> </i>
+                            <i class="far fa-star"> </i>
+                          </p>
+                        </div>
+                        <div style="position: absolute; top: 1%; right: 10%;">
+                          <small style="border-radius: 50%;" class="border border-outline-danger p-1">{{$d->price}} ₹</small>
+                        </div>
+
+                      </div>
+                      <div style="position: relative;">
+
+                        <div class="text-muted">
+                          <small> <i class="fas fa-book-open  ml-1"></i> {{$d->lessons}}Lessons</small>
+                        </div>
+                        <div style="position: absolute; top: 1%; right: 10%;">
+                          <small class="text-muted"> <i class="fas fa-users"></i> {{$d->seats}} seats</small>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </a>
 
 
               </div>
-              <div class="item">
 
-                <!-- start item 6-->
-                <div class="bg-light p-4 text-center" id="musicP1" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fab fa-soundcloud " style="color: blue; font-size: 400%;"></i></p>
-                  <p>Music Production</p>
-
-                </div>
-
-                <!--ends item6-->
-
-
-              </div>
-              <!--NEXT 6 iMGs in CAROUSEL start-->
-              <div class="item">
-                <!--economy start item 1-->
-                <div class="bg-light p-4 text-center" id="economy2" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fas fa-chart-line " style="color: blue; font-size: 400%;"></i></p>
-                  <p>Economy</p>
-
-                </div>
-
-                <!--economy ends item1-->
-              </div>
-              <div class="item">
-                <!-- start item 2-->
-                <div class="bg-light p-4 text-center" id="languages2" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fas fa-language " style="color: blue; font-size: 400%;"></i></p>
-                  <p>Languages</p>
-
-                </div>
-
-                <!--ends item2-->
-              </div>
-              <div class="item">
-                <!-- start item 3-->
-                <div class="bg-light p-4 text-center" id="economy3" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fas fa-chart-line " style="color: blue; font-size: 400%;"></i></p>
-                  <p>Economy</p>
-
-                </div>
-
-                <!--ends item 3-->
-              </div>
-              <div class="item">
-                <!-- start item 4-->
-                <div class="bg-light p-4 text-center" id="biology2" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fas fa-dna" style="color: blue; font-size: 400%;"></i></p>
-                  <p>Biology</p>
-
-                </div>
-
-
-                <!--ends item4-->
-              </div>
-              <div class="item">
-                <!-- start item 5-->
-                <div class="bg-light p-4 text-center" id="history2" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fas fa-book-reader " style="color: blue; font-size: 400%;"></i></p>
-                  <p>History</p>
-
-                </div>
-
-                <!--ends item 5-->
-              </div>
-              <div class="item">
-                <!--item 6 START-->
-                <div class="bg-light p-4 text-center" id="musicP2" style="width: 25vh; height: auto; border-radius: 15px;">
-                  <p><i class="fab fa-soundcloud " style="color: blue; font-size: 400%;"></i></p>
-                  <p>Music Production</p>
-
-                </div>
-
-                <!--ends item6-->
-              </div>
-              <!--NEXT 6 iMGs in CAROUSEL start-->
+              @endforeach
 
             </div>
 
@@ -991,7 +909,7 @@
         <h3 class="my-5 " style="color: white;">Trusted by over <strong>6000+</strong> students</h3>
         <p style="color: white;">We have fully qualified and experienced teacher to teach from different
           backgrounds</p>
-        <button class="btn btn-light  btn-outline-primary my-5" style="border-radius: 15px;">Get Started</button>
+        <button class="btn btn-light  btn-outline-primary my-5" style="border-radius: 15px;">  <a style="text-decoration: none;" href="{{url('sign_up')}}">Get Started</a>  </button>
 
       </div>
       <div class="col-md-2 ">
@@ -1280,19 +1198,17 @@
 
 
 
-         
 
-  
+
+
             <a id="a1" style="text-decoration: none;" href="{{url('buy_on_click',$d['id'])}}">
 
-<script>
+              <script>
+                $('#a1').click(function() {
 
-
-$('#a1').click(function(){
-
-$('#fullcoursename').css('color','red');
-});
-</script>
+                  $('#fullcoursename').css('color', 'red');
+                });
+              </script>
 
 
 
@@ -1303,8 +1219,8 @@ $('#fullcoursename').css('color','red');
 
                 <div class="p-3">
                   <p class="text-muted">{{$d->title}}</p>
-                <small> {{$d->fullcoursename}}   </small>    
-                        
+                  <small> {{$d->fullcoursename}} </small>
+
 
                   <div style="position: relative;">
                     <div>
@@ -1340,7 +1256,7 @@ $('#fullcoursename').css('color','red');
 
           @endforeach
 
-<!-- 
+          <!-- 
           <div class="col-md-3 ">
 
             <a style="text-decoration: none;" href="{{url('single_course')}}">
@@ -1388,7 +1304,7 @@ $('#fullcoursename').css('color','red');
 
 
 
-<!-- 
+          <!-- 
           <div class="col-md-3 ">
 
             <a style="text-decoration: none;" href="{{url('buy_on_click')}}">
@@ -1436,7 +1352,7 @@ $('#fullcoursename').css('color','red');
 
 
 
-<!-- 
+          <!-- 
           <div class="col-md-3 ">
 
 
@@ -1507,7 +1423,7 @@ $('#fullcoursename').css('color','red');
 
       <div class="col-md-12 my-5">
         <div class="text-center">
-          <button class="'btn btn-light btn-outline-primary  p-2 " style="border-radius: 15px;">See More</button>
+          <button class="'btn btn-light btn-outline-primary  p-2 " style="border-radius: 15px;"> <a style="text-decoration: none;" href="{{url('courses')}}"> See More</a></button>
         </div>
 
       </div>
@@ -1657,7 +1573,7 @@ $('#fullcoursename').css('color','red');
         <img id="sep24img1" style="height: 70%; width: 100%; border-radius: 15px;" src="https://anneknock.files.wordpress.com/2011/09/learn-your-way.jpg?w=300&h=199" alt="">
         <p class="my-1 text-muted">24 september 2017</p>
         <p>Why students love study</p>
-        <p style="color: skyblue;"> <a href="" style="text-decoration:none"> Read More > </a> </p>
+        <p style="color: skyblue;"> <a href="{{url('singleevents')}}" style="text-decoration:none"> Read More > </a> </p>
 
       </div>
       <div class="col-md-3 ">
@@ -1665,7 +1581,7 @@ $('#fullcoursename').css('color','red');
         <img id="sep24img2" style="height: 70%; width: 100%;border-radius: 15px;" src="https://www.chotot.com/kinhnghiem/wp-content/uploads/2018/12/viec-lam-online-1.jpg" alt="">
         <p class="my-1 text-muted">24 september 2017</p>
         <p>New Courses for 2021</p>
-        <p style="color: skyblue;"><a href="" style="text-decoration:none"> Read More > </a></p>
+        <p style="color: skyblue;"><a href="{{url('eventcalender')}}" style="text-decoration:none"> Read More > </a></p>
 
       </div>
       <div class="col-md-3 my-5">
@@ -1677,7 +1593,7 @@ $('#fullcoursename').css('color','red');
           <div class="col-md-10">
             <p>Cientific Results Conference</p>
             <p class="text-muted">Proin accumsan placerat mauris sit amet condimentum.</p>
-            <p style="color: skyblue;"><a href="" style="text-decoration:none"> View Event> </a></p>
+            <p style="color: skyblue;"><a href="{{url('eventcalender')}}" style="text-decoration:none"> View Event> </a></p>
           </div>
 
         </div>
@@ -1689,7 +1605,7 @@ $('#fullcoursename').css('color','red');
           <div class="col-md-10">
             <p>Boost Your Teamworking Skills</p>
             <p class="text-muted">Proin accumsan placerat mauris sit amet condimentum.</p>
-            <p style="color: skyblue;"><a href="" style="text-decoration:none"> View Event> </a></p>
+            <p style="color: skyblue;"><a href="{{url('eventcalender')}}" style="text-decoration:none"> View Event> </a></p>
           </div>
 
         </div>
@@ -1701,7 +1617,7 @@ $('#fullcoursename').css('color','red');
           <div class="col-md-10">
             <p>Campus Tour 2017</p>
             <p class="text-muted">Proin accumsan placerat mauris sit amet condimentum.</p>
-            <p style="color: skyblue;"><a href="" style="text-decoration:none"> View Event> </a></p>
+            <p style="color: skyblue;"><a href="{{url('eventcalender')}}" style="text-decoration:none"> View Event> </a></p>
           </div>
 
         </div>
@@ -1747,19 +1663,19 @@ $('#fullcoursename').css('color','red');
                 <li>
                   <h3>Explore More</h3>
                 </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;">History & Mission</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Administration</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Community</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Around the World</a></li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;"> News Network</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;"> Visitor Information</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;"> Campus Directories</a></li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">History & Mission</a> </li>
+                <li> <a href=https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Administration</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Community</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Around the World</a></li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> News Network</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> Visitor Information</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> Campus Directories</a></li>
 
 
                 <li>
-                  <a href="" class="text-muted" style="text-decoration: none;"> Employment</a>
+                  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> Employment</a>
                 </li>
               </ul>
             </div>
@@ -1771,11 +1687,11 @@ $('#fullcoursename').css('color','red');
                 <li>
                   <h3>Addmissions</h3>
                 </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Undergraduate</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;"> By School</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Process</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Visitor Information</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;">For Prospective Parents</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Undergraduate</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> By School</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Process</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Visitor Information</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">For Prospective Parents</a> </li>
               </ul>
 
             </div>
@@ -1787,23 +1703,23 @@ $('#fullcoursename').css('color','red');
                 </li>
 
 
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Applied Physics Laboratory</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Research Projects Administration</a> </li>
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Funding Opportunities</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Applied Physics Laboratory</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Research Projects Administration</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Funding Opportunities</a> </li>
 
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Undergraduate Research</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Undergraduate Research</a> </li>
 
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Resources</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Resources</a> </li>
 
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Health & Medicine</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Health & Medicine</a> </li>
 
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Social Sciences, Humanities & Arts</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Social Sciences, Humanities & Arts</a> </li>
 
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Natural Sciences, Engineering & Tech</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Natural Sciences, Engineering & Tech</a> </li>
 
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Global Research</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Global Research</a> </li>
 
-                <li> <a href="" class="text-muted" style="text-decoration: none;">Technology Transfer</a> </li>
+                <li> <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Technology Transfer</a> </li>
 
 
 
@@ -1851,28 +1767,28 @@ $('#fullcoursename').css('color','red');
           </ul>
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-facebook-f"></i></a>
+              <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link  text-muted"><i style="color: white;" class="fab fa-facebook-f"></i></a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-twitter"></i></a>
+              <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link  text-muted"><i style="color: white;" class="fab fa-twitter"></i></a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-instagram"></i></a>
+              <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link  text-muted"><i style="color: white;" class="fab fa-instagram"></i></a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
+              <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link  text-muted"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
             </li>
           </ul>
 
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="" class="nav-link text-muted" style="color: white;">Privacy Policy </a>
+              <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link text-muted" style="color: white;">Privacy Policy </a>
             </li>
             <li class="nav-itm">
-              <a href="" class="nav-link text-muted" style="color: white;">|</a>
+              <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link text-muted" style="color: white;">|</a>
             </li>
             <li class="nav-itm">
-              <a href="" class="nav-link text-muted" style="color: white;">Terms of Use</a>
+              <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link text-muted" style="color: white;">Terms of Use</a>
             </li>
           </ul>
 

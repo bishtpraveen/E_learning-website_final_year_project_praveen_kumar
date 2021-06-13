@@ -92,11 +92,15 @@
         <p class="ml-5">+1 352 254 1548</p>
         </p>
         <p>  <span style="font-size: large;">Find Us ON   </span> 
+        <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html"> <i style="border-radius: 50%; color: white; background-color: blue; " class="fab fa-facebook-f p-2 ml-5 mr-2"></i></a>
+            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html"> <i style="border-radius: 50%;color: white; background-color: skyblue; " class="fab fa-twitter p-2 mr-2"></i></a>
+            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html"><i style="border-radius: 50%; color: white; background-color: red; " class="fab fa-google-plus-g p-2 mr-2"></i></a>
+            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html"><i style="border-radius: 50%; color: white; background-color: pink; " class="fab fa-pinterest-square p-2 mr-2"></i></a>
+
+           
+           
             
-            <i style="border-radius: 50%; color: white; background-color: blue; " class="fab fa-facebook-f p-2 ml-5 mr-2"></i>
-            <i style="border-radius: 50%;color: white; background-color: skyblue; " class="fab fa-twitter p-2 mr-2"></i>
-            <i style="border-radius: 50%; color: white; background-color: red; " class="fab fa-google-plus-g p-2 mr-2"></i>
-            <i style="border-radius: 50%; color: white; background-color: pink; " class="fab fa-pinterest-square p-2 mr-2"></i>
+            
         </p>
 
     </div>

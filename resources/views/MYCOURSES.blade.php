@@ -169,8 +169,28 @@
 
             <div class="col-md-2">
                 <p> <i style="color: blue;" class="fas fa-book-reader"></i></p>
-                <p>2</p>
-                <p>Courses</p>
+                <p>
+                
+                <P id="num">
+                
+                {{$sum=0}}
+                                        @foreach($rdata as $d)
+                                        {{$sum +=1}}
+                                        @endforeach
+                
+                </P>
+                                       
+                                        {{$sum}}
+                
+                
+                
+                
+                
+                </p>
+                <script>
+                $('#num').hide();
+                </script>
+                <p>Courses </p>
 
             </div>
 
@@ -232,7 +252,7 @@
                         <p class="text-muted">Online Batch 12 tracks</p>
                         <p>
 
-                            <button class="btn btn-light btn-outline-info">Continue Learning</button>
+                            <button class="btn btn-light btn-outline-info">  <a style="text-decoration: none;" href="{{url('process')}}">Continue Learning</a> </button>
                         </p>
                     </div>
                 </div>
@@ -243,10 +263,11 @@
                         <img style="height: 100%; width: 100%;" src="https://d6vdma9166ldh.cloudfront.net/media/images/4594dcf8-a8c5-4fa7-a6d4-bab2c9081041.jpg" alt="">
                     </div>
                     <div class="col-md-6">
+                    <p>Trending Course On Vidya Infinity </p>
                         <p>Data Science</p>
                         <p class="text-muted">Online Batch 10 tracks</p>
                         <p>
-                            <button class="btn btn-light btn-outline-info">Pay Now </button>
+                            <button class="btn btn-light btn-outline-info"><a href="{{url('single_course')}}">Explore</a> </button>
                         </p>
                     </div>
  
@@ -257,7 +278,10 @@
                             <table class="table  table-hover">
 
                                 <thead>
+
+                                <tr><p>My Courses</p></tr>
                                     <tr>
+
                                         <th>Course ID</th>
                                         <th>Username</th>
                                         <th>Email</th>
@@ -302,11 +326,11 @@
 
                                  <script>
                                         $('#td').hide();
-                                    </script> -->
+                                    </script> 
                                      <td>{{$sum}}</td>
 
                                     <td>
-                                        <a href="" class="btn btn-light btn-outline-info my-1"> Pay</a>
+                                        <a href="{{url('courses')}}" class="btn btn-light btn-outline-info my-1"> Explore More</a>
                                     </td>
 
                                 </tfoot>
@@ -388,7 +412,7 @@
                         <p class="text-muted">Online Batch 5 tracks</p>
                         <p>
 
-                            <button class="btn btn-light btn-outline-info">Continue Learning</button>
+                            <button class="btn btn-light btn-outline-info"><a style="text-decoration: none;" href="{{url('process')}}">Continue Learning</a></button>
                         </p>
                     </div>
                 </div>

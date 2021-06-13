@@ -168,5 +168,5 @@ Route::post('contact_form',[HomeController::class,'contact_form']);
 //home search icon results route
 
 Route::get('/search_home1',[SearchController::class,'search_home1']);
-;
+
 

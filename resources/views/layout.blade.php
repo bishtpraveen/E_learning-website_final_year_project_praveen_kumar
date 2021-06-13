@@ -64,25 +64,25 @@
                 <nav class="navbar navbar-expand-md px-0  ">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="" class="nav-link"><i style="color: white;" class="fab fa-facebook-f"></i></a>
+                            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link"><i style="color: white;" class="fab fa-facebook-f"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link"><i style="color: white;" class="fab fa-twitter"></i></a>
+                            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link"><i style="color: white;" class="fab fa-twitter"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link"><i style="color: white;" class="fab fa-instagram"></i></a>
+                            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link"><i style="color: white;" class="fab fa-instagram"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
+                            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a style="color: white;" href="" class="nav-link"><i
+                            <a style="color: white;" href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link"><i
                                     class="fas fa-envelope-square mr-2"></i>vidya@edu.com</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color: white;" href="" class="nav-link"><i style="color: white;"
+                            <a style="color: white;" href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link"><i style="color: white;"
                                     class="fas fa-phone  mr-2"></i>8122345678</a>
                         </li>
                       
@@ -177,7 +177,7 @@
             </div>
             <div class="col-md-8 ">
                 <nav class="navbar navbar-expand-md px-0 ">
-                    <a href="" style="color: white;" class="navbar-brand">Vidya Infinity</a>
+                    <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" style="color: white;" class="navbar-brand">Vidya Infinity</a>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item ">
                         <a href="{{url('home1')}}" style="color: white;"  id="homeId" class="nav-link ">Home</a>
@@ -312,19 +312,19 @@
               <li>
                 <h3>Explore More</h3>
               </li>
-              <li > <a href="" class="text-muted" style="text-decoration: none;">History & Mission</a> </li>
-              <li >   <a href="" class="text-muted" style="text-decoration: none;">Administration</a> </li>
-              <li > <a href="" class="text-muted" style="text-decoration: none;">Community</a> </li>
-              <li > <a href="" class="text-muted" style="text-decoration: none;">Around the World</a></li>
-              <li > <a href="" class="text-muted" style="text-decoration: none;"> News Network</a> </li>
-              <li > <a href="" class="text-muted" style="text-decoration: none;"> Visitor Information</a> </li>
-              <li > <a href="" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
-              <li >  <a href="" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
-              <li >  <a href="" class="text-muted" style="text-decoration: none;">  Campus Directories</a></li>
+              <li > <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">History & Mission</a> </li>
+              <li >   <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Administration</a> </li>
+              <li > <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Community</a> </li>
+              <li > <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Around the World</a></li>
+              <li > <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> News Network</a> </li>
+              <li > <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> Visitor Information</a> </li>
+              <li > <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">  Campus Directories</a></li>
              
              
               <li >
-                <a href="" class="text-muted" style="text-decoration: none;"> Employment</a>   </li>
+                <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> Employment</a>   </li>
             </ul>
           </div>
 
@@ -335,11 +335,11 @@
               <li>
                 <h3>Addmissions</h3>
               </li>
-              <li > <a href="" class="text-muted" style="text-decoration: none;">Undergraduate</a> </li>
-              <li > <a href="" class="text-muted" style="text-decoration: none;"> By School</a> </li>
-              <li > <a href="" class="text-muted" style="text-decoration: none;">Process</a> </li>
-              <li > <a href="" class="text-muted" style="text-decoration: none;">Visitor Information</a> </li>
-              <li > <a href="" class="text-muted" style="text-decoration: none;">For Prospective Parents</a> </li>
+              <li > <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Undergraduate</a> </li>
+              <li > <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;"> By School</a> </li>
+              <li > <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Process</a> </li>
+              <li > <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Visitor Information</a> </li>
+              <li > <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">For Prospective Parents</a> </li>
             </ul>
 
           </div>
@@ -351,23 +351,23 @@
               </li>
 
 
-              <li >  <a href="" class="text-muted" style="text-decoration: none;">Applied Physics Laboratory</a> </li>
-              <li >  <a href="" class="text-muted" style="text-decoration: none;">Research Projects Administration</a> </li>
-              <li >  <a href="" class="text-muted" style="text-decoration: none;">Funding Opportunities</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Applied Physics Laboratory</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Research Projects Administration</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Funding Opportunities</a> </li>
 
-              <li >  <a href="" class="text-muted" style="text-decoration: none;">Undergraduate Research</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Undergraduate Research</a> </li>
 
-              <li >  <a href="" class="text-muted" style="text-decoration: none;">Resources</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Resources</a> </li>
 
-              <li >  <a href="" class="text-muted" style="text-decoration: none;">Health & Medicine</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Health & Medicine</a> </li>
 
-              <li >  <a href="" class="text-muted" style="text-decoration: none;">Social Sciences, Humanities & Arts</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Social Sciences, Humanities & Arts</a> </li>
 
-              <li >  <a href="" class="text-muted" style="text-decoration: none;">Natural Sciences, Engineering & Tech</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Natural Sciences, Engineering & Tech</a> </li>
 
-              <li >  <a href="" class="text-muted" style="text-decoration: none;">Global Research</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Global Research</a> </li>
 
-              <li >  <a href="" class="text-muted" style="text-decoration: none;">Technology Transfer</a> </li>
+              <li >  <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="text-muted" style="text-decoration: none;">Technology Transfer</a> </li>
 
 
 
@@ -407,36 +407,36 @@
 
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="" class="nav-link text-muted" style="color: white;">
+            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link text-muted" style="color: white;">
               <i class="far fa-copyright"></i>
               2021 Vidya Infinity.All Copyrights
-              Rights Reserved</a>
+              Rights Reserved </a>
           </li>
         </ul>
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-facebook-f"></i></a>
+            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link  text-muted"><i style="color: white;" class="fab fa-facebook-f"></i></a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-twitter"></i></a>
+            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link  text-muted"><i style="color: white;" class="fab fa-twitter"></i></a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-instagram"></i></a>
+            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link  text-muted"><i style="color: white;" class="fab fa-instagram"></i></a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
+            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link  text-muted"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
           </li>
         </ul>
 
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="" class="nav-link text-muted" style="color: white;">Privacy Policy </a>
+            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link text-muted" style="color: white;">Privacy Policy </a>
           </li>
           <li class="nav-itm">
-            <a href="" class="nav-link text-muted" style="color: white;">|</a>
+            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link text-muted" style="color: white;">|</a>
           </li>
           <li class="nav-itm">
-            <a href="" class="nav-link text-muted" style="color: white;">Terms of Use</a>
+            <a href="https://praveenkumarbisht.blogspot.com/2019/05/twask-2019-jngec-sunder-nagar.html" class="nav-link text-muted" style="color: white;">Terms of Use</a>
           </li>
         </ul>
 

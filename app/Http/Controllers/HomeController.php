@@ -503,7 +503,16 @@ class HomeController extends Controller
 
     public function after_login()
     {
-        return view('after_login');
+
+
+
+
+
+        
+        $allData = EducatorAddCoursesModel::all();
+        return view('after_login')->with('data',$allData);
+
+        // return view('after_login');
     }
 
     public function become_a_teacher()
@@ -615,13 +624,13 @@ class HomeController extends Controller
 
     public function mycourses(Request $request)
     {
-        // $rgData = RegisteredCourses::all();
-        // return view('mycourses')->with('rdata', $rgData);
-
-
         $rgData = RegisteredCourses::all();
-        $Data = AddDetails::distinct('email')->where('email','email');
-        return view('mycourses')->with('rdata', $rgData)->with('data', $Data);
+        return view('mycourses')->with('rdata', $rgData);
+
+
+        // $rgData = RegisteredCourses::all();
+        // $Data = AddDetails::distinct('email')->where('email','email');
+        // return view('mycourses')->with('rdata', $rgData)->with('data', $Data);
 
 
         // $rgData = RegisteredCourses::all();

@@ -412,10 +412,10 @@
   
         <div class="col-md-12 my-5">
           <div class="text-center">
-            <span><a style="border: 1px solid black; border-radius: 50%; text-decoration: none;" class="bg-light p-1" href="">1</a></span>
-      <span><a style="border: 1px solid black; border-radius: 50%; text-decoration: none;" class="bg-light p-1" href="">2</a></span>
-      <span><a style="border: 1px solid black; border-radius: 50%; text-decoration: none;" class="bg-light p-1" href="">3</a></span>
-      <span><a style="border: 1px solid black; border-radius: 50%; text-decoration: none;" class="bg-light p-1" href="">></a></span>
+            <span><a style="border: 1px solid black; border-radius: 50%; text-decoration: none;" class="bg-light p-1" href="{{url('gallery')}}">1</a></span>
+      <span><a style="border: 1px solid black; border-radius: 50%; text-decoration: none;" class="bg-light p-1" href="{{url('single_course')}}">2</a></span>
+      <span><a style="border: 1px solid black; border-radius: 50%; text-decoration: none;" class="bg-light p-1" href="{{url('our_mission')}}">3</a></span>
+      <span><a style="border: 1px solid black; border-radius: 50%; text-decoration: none;" class="bg-light p-1" href="{{url('our_team')}}">></a></span>
         
           </div>
   

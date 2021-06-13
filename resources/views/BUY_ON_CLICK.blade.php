@@ -228,8 +228,8 @@
       <input type="text" placeholder="{{  $id->price  }}" value="{{  $id->price  }}" name="ramount" class="form-control p-2 my-2" readonly>
      
       <!-- this is course/product id -->
-      <input type="hidden" placeholder="{{  $id->id  }}" value="{{  $id->id  }}" name="rcourses" class="form-control p-2 my-2" readonly>
-
+      <!-- <input type="hidden" placeholder="{{  $id->id  }}" value="{{  $id->id  }}" name="rcourses" class="form-control p-2 my-2" readonly>
+ -->
 
 
 
