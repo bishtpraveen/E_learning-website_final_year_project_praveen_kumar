@@ -372,6 +372,8 @@
                 <li class="nav-item dropdown">
                   <a href="" style="color: white;" data-toggle="dropdown" id="eventsId" class="nav-link dropdown-toggle">Events</a>
                   <div id="eventsDdmId" class="dropdown-menu ">
+                  <a href="{{url('game')}}" class="dropdown-item">Play Game</a>
+                
                     <a href="{{url('singleevents')}}" class="dropdown-item">Single Events </a>
                     <a href="{{url('eventcalender')}}" class="dropdown-item">Events Calender</a>
 

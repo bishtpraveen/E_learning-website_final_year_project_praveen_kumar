@@ -603,6 +603,10 @@ class HomeController extends Controller
         return view('gallery');
     }
 
+    public function game()
+    {
+        return view('game');
+    }
 
     public function home1()
     {

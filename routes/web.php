@@ -170,3 +170,9 @@ Route::post('contact_form',[HomeController::class,'contact_form']);
 Route::get('/search_home1',[SearchController::class,'search_home1']);
 
 
+
+//game playing
+
+Route::get('game', [HomeController::class,'game']);
+
+
